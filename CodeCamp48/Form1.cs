@@ -25,27 +25,27 @@ namespace CodeCamp48
         private void button5_Click(object sender, EventArgs e)
         {
             
-            ArduinoCommunicator.analogWrite(11, Convert.ToInt32(tbDirectQuery.Text));
+            ArduinoCommunicator.AnalogWrite(11, Convert.ToInt32(tbDirectQuery.Text));
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            ArduinoCommunicator.pinMode(13, ArduinoCommunicator.PinDirection.Output);
+            ArduinoCommunicator.PinMode(13, ArduinoCommunicator.PinDirection.Output);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ArduinoCommunicator.digitalWrite(11, ArduinoCommunicator.DigitalValue.High);
+            ArduinoCommunicator.DigitalWrite(11, ArduinoCommunicator.DigitalValue.High);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            ArduinoCommunicator.digitalWrite(11, ArduinoCommunicator.DigitalValue.Low);
+            ArduinoCommunicator.DigitalWrite(11, ArduinoCommunicator.DigitalValue.Low);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            ArduinoCommunicator.pinMode(11, ArduinoCommunicator.PinDirection.Output);
+            ArduinoCommunicator.PinMode(11, ArduinoCommunicator.PinDirection.Output);
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -189,9 +189,9 @@ namespace CodeCamp48
             new RGBStuff().Show();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void btnProbe_Click(object sender, EventArgs e)
         {
-            ArduinoCommunicator.probe();
+            ArduinoCommunicator.Probe();
         }
     }
 }

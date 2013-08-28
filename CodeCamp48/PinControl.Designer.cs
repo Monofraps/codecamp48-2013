@@ -29,48 +29,54 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.cbPin2Direction = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnPin2SetHigh = new System.Windows.Forms.Button();
-            this.btnPin2SetLow = new System.Windows.Forms.Button();
-            this.btnPin2Read = new System.Windows.Forms.Button();
-            this.lPin2Read = new System.Windows.Forms.Label();
-            this.lPin4Read = new System.Windows.Forms.Label();
-            this.btnPin4Read = new System.Windows.Forms.Button();
-            this.btnPin4SetLow = new System.Windows.Forms.Button();
-            this.btnPin4SetHigh = new System.Windows.Forms.Button();
-            this.cbPin4Direction = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lPin7Read = new System.Windows.Forms.Label();
-            this.btnPin7Read = new System.Windows.Forms.Button();
-            this.btnPin7SetLow = new System.Windows.Forms.Button();
-            this.btnPin7SetHigh = new System.Windows.Forms.Button();
-            this.cbPin7Direction = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.lPin8Read = new System.Windows.Forms.Label();
-            this.btnPin8Read = new System.Windows.Forms.Button();
-            this.btnPin8SetLow = new System.Windows.Forms.Button();
-            this.btnPin8SetHigh = new System.Windows.Forms.Button();
-            this.cbPin8Direction = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.lPin12Read = new System.Windows.Forms.Label();
-            this.btnPin12Read = new System.Windows.Forms.Button();
-            this.btnPin12SetLow = new System.Windows.Forms.Button();
-            this.btnPin12SetHigh = new System.Windows.Forms.Button();
-            this.cbPin12Direction = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.lPin13Read = new System.Windows.Forms.Label();
             this.btnPin13Read = new System.Windows.Forms.Button();
             this.btnPin13SetLow = new System.Windows.Forms.Button();
             this.btnPin13SetHigh = new System.Windows.Forms.Button();
             this.cbPin13Direction = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.lPin12Read = new System.Windows.Forms.Label();
+            this.btnPin12Read = new System.Windows.Forms.Button();
+            this.btnPin12SetLow = new System.Windows.Forms.Button();
+            this.btnPin12SetHigh = new System.Windows.Forms.Button();
+            this.cbPin12Direction = new System.Windows.Forms.ComboBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.lPin8Read = new System.Windows.Forms.Label();
+            this.btnPin8Read = new System.Windows.Forms.Button();
+            this.btnPin8SetLow = new System.Windows.Forms.Button();
+            this.btnPin8SetHigh = new System.Windows.Forms.Button();
+            this.cbPin8Direction = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.lPin7Read = new System.Windows.Forms.Label();
+            this.btnPin7Read = new System.Windows.Forms.Button();
+            this.btnPin7SetLow = new System.Windows.Forms.Button();
+            this.btnPin7SetHigh = new System.Windows.Forms.Button();
+            this.cbPin7Direction = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lPin4Read = new System.Windows.Forms.Label();
+            this.btnPin4Read = new System.Windows.Forms.Button();
+            this.btnPin4SetLow = new System.Windows.Forms.Button();
+            this.btnPin4SetHigh = new System.Windows.Forms.Button();
+            this.cbPin4Direction = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lPin2Read = new System.Windows.Forms.Label();
+            this.btnPin2Read = new System.Windows.Forms.Button();
+            this.btnPin2SetLow = new System.Windows.Forms.Button();
+            this.btnPin2SetHigh = new System.Windows.Forms.Button();
+            this.cbPin2Direction = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.cbAnal5DisplayMode = new System.Windows.Forms.ComboBox();
+            this.cbAnal4DisplayMode = new System.Windows.Forms.ComboBox();
+            this.cbAnal3DisplayMode = new System.Windows.Forms.ComboBox();
+            this.cbAnal2DisplayMode = new System.Windows.Forms.ComboBox();
+            this.cbAnal1DisplayMode = new System.Windows.Forms.ComboBox();
             this.lAnal5Read = new System.Windows.Forms.Label();
             this.btnAnal5Read = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.lAnal4Read = new System.Windows.Forms.Label();
             this.btnAnal4Read = new System.Windows.Forms.Button();
+            this.cbAnal0DisplayMode = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.lAnal3Read = new System.Windows.Forms.Label();
             this.btnAnal3Read = new System.Windows.Forms.Button();
@@ -85,6 +91,12 @@
             this.btnAnal0Read = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.tbPin11PWM = new System.Windows.Forms.TrackBar();
+            this.tbPin10PWM = new System.Windows.Forms.TrackBar();
+            this.tbPin9PWM = new System.Windows.Forms.TrackBar();
+            this.tbPin6PWM = new System.Windows.Forms.TrackBar();
+            this.tbPin5PWM = new System.Windows.Forms.TrackBar();
+            this.tbPin3PWM = new System.Windows.Forms.TrackBar();
             this.lPin11Read = new System.Windows.Forms.Label();
             this.btnPin11Read = new System.Windows.Forms.Button();
             this.btnPin11SetLow = new System.Windows.Forms.Button();
@@ -121,27 +133,15 @@
             this.btnPin3SetHigh = new System.Windows.Forms.Button();
             this.cbPin3Direction = new System.Windows.Forms.ComboBox();
             this.label24 = new System.Windows.Forms.Label();
-            this.tbPin3PWM = new System.Windows.Forms.TrackBar();
-            this.tbPin5PWM = new System.Windows.Forms.TrackBar();
-            this.tbPin6PWM = new System.Windows.Forms.TrackBar();
-            this.tbPin9PWM = new System.Windows.Forms.TrackBar();
-            this.tbPin10PWM = new System.Windows.Forms.TrackBar();
-            this.tbPin11PWM = new System.Windows.Forms.TrackBar();
-            this.cbAnal0DisplayMode = new System.Windows.Forms.ComboBox();
-            this.cbAnal1DisplayMode = new System.Windows.Forms.ComboBox();
-            this.cbAnal2DisplayMode = new System.Windows.Forms.ComboBox();
-            this.cbAnal3DisplayMode = new System.Windows.Forms.ComboBox();
-            this.cbAnal4DisplayMode = new System.Windows.Forms.ComboBox();
-            this.cbAnal5DisplayMode = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tbPin3PWM)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbPin5PWM)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbPin6PWM)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbPin9PWM)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbPin10PWM)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbPin11PWM)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbPin10PWM)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbPin9PWM)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbPin6PWM)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbPin5PWM)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbPin3PWM)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -188,321 +188,6 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Pure Digital Pins";
-            // 
-            // cbPin2Direction
-            // 
-            this.cbPin2Direction.AllowDrop = true;
-            this.cbPin2Direction.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cbPin2Direction.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbPin2Direction.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbPin2Direction.FormattingEnabled = true;
-            this.cbPin2Direction.Items.AddRange(new object[] {
-            "IN",
-            "OUT"});
-            this.cbPin2Direction.Location = new System.Drawing.Point(6, 43);
-            this.cbPin2Direction.Name = "cbPin2Direction";
-            this.cbPin2Direction.Size = new System.Drawing.Size(50, 21);
-            this.cbPin2Direction.TabIndex = 2;
-            this.cbPin2Direction.SelectedIndexChanged += new System.EventHandler(this.cbPin2Direction_SelectedIndexChanged);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(3, 27);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(13, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "2";
-            // 
-            // btnPin2SetHigh
-            // 
-            this.btnPin2SetHigh.Location = new System.Drawing.Point(6, 80);
-            this.btnPin2SetHigh.Name = "btnPin2SetHigh";
-            this.btnPin2SetHigh.Size = new System.Drawing.Size(50, 23);
-            this.btnPin2SetHigh.TabIndex = 3;
-            this.btnPin2SetHigh.Text = "HI";
-            this.btnPin2SetHigh.UseVisualStyleBackColor = true;
-            this.btnPin2SetHigh.Click += new System.EventHandler(this.btnPin2SetHigh_Click);
-            // 
-            // btnPin2SetLow
-            // 
-            this.btnPin2SetLow.Location = new System.Drawing.Point(6, 109);
-            this.btnPin2SetLow.Name = "btnPin2SetLow";
-            this.btnPin2SetLow.Size = new System.Drawing.Size(50, 23);
-            this.btnPin2SetLow.TabIndex = 4;
-            this.btnPin2SetLow.Text = "LO";
-            this.btnPin2SetLow.UseVisualStyleBackColor = true;
-            this.btnPin2SetLow.Click += new System.EventHandler(this.btnPin2SetLow_Click);
-            // 
-            // btnPin2Read
-            // 
-            this.btnPin2Read.Location = new System.Drawing.Point(6, 149);
-            this.btnPin2Read.Name = "btnPin2Read";
-            this.btnPin2Read.Size = new System.Drawing.Size(50, 23);
-            this.btnPin2Read.TabIndex = 5;
-            this.btnPin2Read.Text = "READ";
-            this.btnPin2Read.UseVisualStyleBackColor = true;
-            this.btnPin2Read.Click += new System.EventHandler(this.btnPin2Read_Click);
-            // 
-            // lPin2Read
-            // 
-            this.lPin2Read.AutoSize = true;
-            this.lPin2Read.Location = new System.Drawing.Point(6, 175);
-            this.lPin2Read.Name = "lPin2Read";
-            this.lPin2Read.Size = new System.Drawing.Size(0, 13);
-            this.lPin2Read.TabIndex = 6;
-            // 
-            // lPin4Read
-            // 
-            this.lPin4Read.AutoSize = true;
-            this.lPin4Read.Location = new System.Drawing.Point(62, 175);
-            this.lPin4Read.Name = "lPin4Read";
-            this.lPin4Read.Size = new System.Drawing.Size(0, 13);
-            this.lPin4Read.TabIndex = 12;
-            // 
-            // btnPin4Read
-            // 
-            this.btnPin4Read.Location = new System.Drawing.Point(62, 149);
-            this.btnPin4Read.Name = "btnPin4Read";
-            this.btnPin4Read.Size = new System.Drawing.Size(50, 23);
-            this.btnPin4Read.TabIndex = 11;
-            this.btnPin4Read.Text = "READ";
-            this.btnPin4Read.UseVisualStyleBackColor = true;
-            this.btnPin4Read.Click += new System.EventHandler(this.btnPin4Read_Click);
-            // 
-            // btnPin4SetLow
-            // 
-            this.btnPin4SetLow.Location = new System.Drawing.Point(62, 109);
-            this.btnPin4SetLow.Name = "btnPin4SetLow";
-            this.btnPin4SetLow.Size = new System.Drawing.Size(50, 23);
-            this.btnPin4SetLow.TabIndex = 10;
-            this.btnPin4SetLow.Text = "LO";
-            this.btnPin4SetLow.UseVisualStyleBackColor = true;
-            this.btnPin4SetLow.Click += new System.EventHandler(this.btnPin4SetLow_Click);
-            // 
-            // btnPin4SetHigh
-            // 
-            this.btnPin4SetHigh.Location = new System.Drawing.Point(62, 80);
-            this.btnPin4SetHigh.Name = "btnPin4SetHigh";
-            this.btnPin4SetHigh.Size = new System.Drawing.Size(50, 23);
-            this.btnPin4SetHigh.TabIndex = 9;
-            this.btnPin4SetHigh.Text = "HI";
-            this.btnPin4SetHigh.UseVisualStyleBackColor = true;
-            this.btnPin4SetHigh.Click += new System.EventHandler(this.btnPin4SetHigh_Click);
-            // 
-            // cbPin4Direction
-            // 
-            this.cbPin4Direction.AllowDrop = true;
-            this.cbPin4Direction.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cbPin4Direction.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbPin4Direction.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbPin4Direction.FormattingEnabled = true;
-            this.cbPin4Direction.Items.AddRange(new object[] {
-            "IN",
-            "OUT"});
-            this.cbPin4Direction.Location = new System.Drawing.Point(62, 43);
-            this.cbPin4Direction.Name = "cbPin4Direction";
-            this.cbPin4Direction.Size = new System.Drawing.Size(50, 21);
-            this.cbPin4Direction.TabIndex = 8;
-            this.cbPin4Direction.SelectedIndexChanged += new System.EventHandler(this.cbPin4Direction_SelectedIndexChanged);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(59, 27);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(13, 13);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "4";
-            // 
-            // lPin7Read
-            // 
-            this.lPin7Read.AutoSize = true;
-            this.lPin7Read.Location = new System.Drawing.Point(118, 175);
-            this.lPin7Read.Name = "lPin7Read";
-            this.lPin7Read.Size = new System.Drawing.Size(0, 13);
-            this.lPin7Read.TabIndex = 18;
-            // 
-            // btnPin7Read
-            // 
-            this.btnPin7Read.Location = new System.Drawing.Point(118, 149);
-            this.btnPin7Read.Name = "btnPin7Read";
-            this.btnPin7Read.Size = new System.Drawing.Size(50, 23);
-            this.btnPin7Read.TabIndex = 17;
-            this.btnPin7Read.Text = "READ";
-            this.btnPin7Read.UseVisualStyleBackColor = true;
-            this.btnPin7Read.Click += new System.EventHandler(this.btnPin7Read_Click);
-            // 
-            // btnPin7SetLow
-            // 
-            this.btnPin7SetLow.Location = new System.Drawing.Point(118, 109);
-            this.btnPin7SetLow.Name = "btnPin7SetLow";
-            this.btnPin7SetLow.Size = new System.Drawing.Size(50, 23);
-            this.btnPin7SetLow.TabIndex = 16;
-            this.btnPin7SetLow.Text = "LO";
-            this.btnPin7SetLow.UseVisualStyleBackColor = true;
-            this.btnPin7SetLow.Click += new System.EventHandler(this.btnPin7SetLow_Click);
-            // 
-            // btnPin7SetHigh
-            // 
-            this.btnPin7SetHigh.Location = new System.Drawing.Point(118, 80);
-            this.btnPin7SetHigh.Name = "btnPin7SetHigh";
-            this.btnPin7SetHigh.Size = new System.Drawing.Size(50, 23);
-            this.btnPin7SetHigh.TabIndex = 15;
-            this.btnPin7SetHigh.Text = "HI";
-            this.btnPin7SetHigh.UseVisualStyleBackColor = true;
-            this.btnPin7SetHigh.Click += new System.EventHandler(this.btnPin7SetHigh_Click);
-            // 
-            // cbPin7Direction
-            // 
-            this.cbPin7Direction.AllowDrop = true;
-            this.cbPin7Direction.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cbPin7Direction.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbPin7Direction.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbPin7Direction.FormattingEnabled = true;
-            this.cbPin7Direction.Items.AddRange(new object[] {
-            "IN",
-            "OUT"});
-            this.cbPin7Direction.Location = new System.Drawing.Point(118, 43);
-            this.cbPin7Direction.Name = "cbPin7Direction";
-            this.cbPin7Direction.Size = new System.Drawing.Size(50, 21);
-            this.cbPin7Direction.TabIndex = 14;
-            this.cbPin7Direction.SelectedIndexChanged += new System.EventHandler(this.cbPin7Direction_SelectedIndexChanged);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(115, 27);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(13, 13);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "7";
-            // 
-            // lPin8Read
-            // 
-            this.lPin8Read.AutoSize = true;
-            this.lPin8Read.Location = new System.Drawing.Point(174, 175);
-            this.lPin8Read.Name = "lPin8Read";
-            this.lPin8Read.Size = new System.Drawing.Size(0, 13);
-            this.lPin8Read.TabIndex = 24;
-            // 
-            // btnPin8Read
-            // 
-            this.btnPin8Read.Location = new System.Drawing.Point(174, 149);
-            this.btnPin8Read.Name = "btnPin8Read";
-            this.btnPin8Read.Size = new System.Drawing.Size(50, 23);
-            this.btnPin8Read.TabIndex = 23;
-            this.btnPin8Read.Text = "READ";
-            this.btnPin8Read.UseVisualStyleBackColor = true;
-            this.btnPin8Read.Click += new System.EventHandler(this.btnPin8Read_Click);
-            // 
-            // btnPin8SetLow
-            // 
-            this.btnPin8SetLow.Location = new System.Drawing.Point(174, 109);
-            this.btnPin8SetLow.Name = "btnPin8SetLow";
-            this.btnPin8SetLow.Size = new System.Drawing.Size(50, 23);
-            this.btnPin8SetLow.TabIndex = 22;
-            this.btnPin8SetLow.Text = "LO";
-            this.btnPin8SetLow.UseVisualStyleBackColor = true;
-            this.btnPin8SetLow.Click += new System.EventHandler(this.btnPin8SetLow_Click);
-            // 
-            // btnPin8SetHigh
-            // 
-            this.btnPin8SetHigh.Location = new System.Drawing.Point(174, 80);
-            this.btnPin8SetHigh.Name = "btnPin8SetHigh";
-            this.btnPin8SetHigh.Size = new System.Drawing.Size(50, 23);
-            this.btnPin8SetHigh.TabIndex = 21;
-            this.btnPin8SetHigh.Text = "HI";
-            this.btnPin8SetHigh.UseVisualStyleBackColor = true;
-            this.btnPin8SetHigh.Click += new System.EventHandler(this.btnPin8SetHigh_Click);
-            // 
-            // cbPin8Direction
-            // 
-            this.cbPin8Direction.AllowDrop = true;
-            this.cbPin8Direction.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cbPin8Direction.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbPin8Direction.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbPin8Direction.FormattingEnabled = true;
-            this.cbPin8Direction.Items.AddRange(new object[] {
-            "IN",
-            "OUT"});
-            this.cbPin8Direction.Location = new System.Drawing.Point(174, 43);
-            this.cbPin8Direction.Name = "cbPin8Direction";
-            this.cbPin8Direction.Size = new System.Drawing.Size(50, 21);
-            this.cbPin8Direction.TabIndex = 20;
-            this.cbPin8Direction.SelectedIndexChanged += new System.EventHandler(this.cbPin8Direction_SelectedIndexChanged);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(171, 27);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(13, 13);
-            this.label7.TabIndex = 19;
-            this.label7.Text = "8";
-            // 
-            // lPin12Read
-            // 
-            this.lPin12Read.AutoSize = true;
-            this.lPin12Read.Location = new System.Drawing.Point(230, 175);
-            this.lPin12Read.Name = "lPin12Read";
-            this.lPin12Read.Size = new System.Drawing.Size(0, 13);
-            this.lPin12Read.TabIndex = 30;
-            // 
-            // btnPin12Read
-            // 
-            this.btnPin12Read.Location = new System.Drawing.Point(230, 149);
-            this.btnPin12Read.Name = "btnPin12Read";
-            this.btnPin12Read.Size = new System.Drawing.Size(50, 23);
-            this.btnPin12Read.TabIndex = 29;
-            this.btnPin12Read.Text = "READ";
-            this.btnPin12Read.UseVisualStyleBackColor = true;
-            this.btnPin12Read.Click += new System.EventHandler(this.btnPin12Read_Click);
-            // 
-            // btnPin12SetLow
-            // 
-            this.btnPin12SetLow.Location = new System.Drawing.Point(230, 109);
-            this.btnPin12SetLow.Name = "btnPin12SetLow";
-            this.btnPin12SetLow.Size = new System.Drawing.Size(50, 23);
-            this.btnPin12SetLow.TabIndex = 28;
-            this.btnPin12SetLow.Text = "LO";
-            this.btnPin12SetLow.UseVisualStyleBackColor = true;
-            this.btnPin12SetLow.Click += new System.EventHandler(this.btnPin12SetLow_Click);
-            // 
-            // btnPin12SetHigh
-            // 
-            this.btnPin12SetHigh.Location = new System.Drawing.Point(230, 80);
-            this.btnPin12SetHigh.Name = "btnPin12SetHigh";
-            this.btnPin12SetHigh.Size = new System.Drawing.Size(50, 23);
-            this.btnPin12SetHigh.TabIndex = 27;
-            this.btnPin12SetHigh.Text = "HI";
-            this.btnPin12SetHigh.UseVisualStyleBackColor = true;
-            this.btnPin12SetHigh.Click += new System.EventHandler(this.btnPin12SetHigh_Click);
-            // 
-            // cbPin12Direction
-            // 
-            this.cbPin12Direction.AllowDrop = true;
-            this.cbPin12Direction.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cbPin12Direction.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbPin12Direction.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbPin12Direction.FormattingEnabled = true;
-            this.cbPin12Direction.Items.AddRange(new object[] {
-            "IN",
-            "OUT"});
-            this.cbPin12Direction.Location = new System.Drawing.Point(230, 43);
-            this.cbPin12Direction.Name = "cbPin12Direction";
-            this.cbPin12Direction.Size = new System.Drawing.Size(50, 21);
-            this.cbPin12Direction.TabIndex = 26;
-            this.cbPin12Direction.SelectedIndexChanged += new System.EventHandler(this.cbPin12Direction_SelectedIndexChanged);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(227, 27);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(19, 13);
-            this.label9.TabIndex = 25;
-            this.label9.Text = "12";
             // 
             // lPin13Read
             // 
@@ -567,6 +252,321 @@
             this.label11.TabIndex = 31;
             this.label11.Text = "13";
             // 
+            // lPin12Read
+            // 
+            this.lPin12Read.AutoSize = true;
+            this.lPin12Read.Location = new System.Drawing.Point(230, 175);
+            this.lPin12Read.Name = "lPin12Read";
+            this.lPin12Read.Size = new System.Drawing.Size(0, 13);
+            this.lPin12Read.TabIndex = 30;
+            // 
+            // btnPin12Read
+            // 
+            this.btnPin12Read.Location = new System.Drawing.Point(230, 149);
+            this.btnPin12Read.Name = "btnPin12Read";
+            this.btnPin12Read.Size = new System.Drawing.Size(50, 23);
+            this.btnPin12Read.TabIndex = 29;
+            this.btnPin12Read.Text = "READ";
+            this.btnPin12Read.UseVisualStyleBackColor = true;
+            this.btnPin12Read.Click += new System.EventHandler(this.btnPin12Read_Click);
+            // 
+            // btnPin12SetLow
+            // 
+            this.btnPin12SetLow.Location = new System.Drawing.Point(230, 109);
+            this.btnPin12SetLow.Name = "btnPin12SetLow";
+            this.btnPin12SetLow.Size = new System.Drawing.Size(50, 23);
+            this.btnPin12SetLow.TabIndex = 28;
+            this.btnPin12SetLow.Text = "LO";
+            this.btnPin12SetLow.UseVisualStyleBackColor = true;
+            this.btnPin12SetLow.Click += new System.EventHandler(this.btnPin12SetLow_Click);
+            // 
+            // btnPin12SetHigh
+            // 
+            this.btnPin12SetHigh.Location = new System.Drawing.Point(230, 80);
+            this.btnPin12SetHigh.Name = "btnPin12SetHigh";
+            this.btnPin12SetHigh.Size = new System.Drawing.Size(50, 23);
+            this.btnPin12SetHigh.TabIndex = 27;
+            this.btnPin12SetHigh.Text = "HI";
+            this.btnPin12SetHigh.UseVisualStyleBackColor = true;
+            this.btnPin12SetHigh.Click += new System.EventHandler(this.btnPin12SetHigh_Click);
+            // 
+            // cbPin12Direction
+            // 
+            this.cbPin12Direction.AllowDrop = true;
+            this.cbPin12Direction.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbPin12Direction.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbPin12Direction.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbPin12Direction.FormattingEnabled = true;
+            this.cbPin12Direction.Items.AddRange(new object[] {
+            "IN",
+            "OUT"});
+            this.cbPin12Direction.Location = new System.Drawing.Point(230, 43);
+            this.cbPin12Direction.Name = "cbPin12Direction";
+            this.cbPin12Direction.Size = new System.Drawing.Size(50, 21);
+            this.cbPin12Direction.TabIndex = 26;
+            this.cbPin12Direction.SelectedIndexChanged += new System.EventHandler(this.cbPin12Direction_SelectedIndexChanged);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(227, 27);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(19, 13);
+            this.label9.TabIndex = 25;
+            this.label9.Text = "12";
+            // 
+            // lPin8Read
+            // 
+            this.lPin8Read.AutoSize = true;
+            this.lPin8Read.Location = new System.Drawing.Point(174, 175);
+            this.lPin8Read.Name = "lPin8Read";
+            this.lPin8Read.Size = new System.Drawing.Size(0, 13);
+            this.lPin8Read.TabIndex = 24;
+            // 
+            // btnPin8Read
+            // 
+            this.btnPin8Read.Location = new System.Drawing.Point(174, 149);
+            this.btnPin8Read.Name = "btnPin8Read";
+            this.btnPin8Read.Size = new System.Drawing.Size(50, 23);
+            this.btnPin8Read.TabIndex = 23;
+            this.btnPin8Read.Text = "READ";
+            this.btnPin8Read.UseVisualStyleBackColor = true;
+            this.btnPin8Read.Click += new System.EventHandler(this.btnPin8Read_Click);
+            // 
+            // btnPin8SetLow
+            // 
+            this.btnPin8SetLow.Location = new System.Drawing.Point(174, 109);
+            this.btnPin8SetLow.Name = "btnPin8SetLow";
+            this.btnPin8SetLow.Size = new System.Drawing.Size(50, 23);
+            this.btnPin8SetLow.TabIndex = 22;
+            this.btnPin8SetLow.Text = "LO";
+            this.btnPin8SetLow.UseVisualStyleBackColor = true;
+            this.btnPin8SetLow.Click += new System.EventHandler(this.btnPin8SetLow_Click);
+            // 
+            // btnPin8SetHigh
+            // 
+            this.btnPin8SetHigh.Location = new System.Drawing.Point(174, 80);
+            this.btnPin8SetHigh.Name = "btnPin8SetHigh";
+            this.btnPin8SetHigh.Size = new System.Drawing.Size(50, 23);
+            this.btnPin8SetHigh.TabIndex = 21;
+            this.btnPin8SetHigh.Text = "HI";
+            this.btnPin8SetHigh.UseVisualStyleBackColor = true;
+            this.btnPin8SetHigh.Click += new System.EventHandler(this.btnPin8SetHigh_Click);
+            // 
+            // cbPin8Direction
+            // 
+            this.cbPin8Direction.AllowDrop = true;
+            this.cbPin8Direction.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbPin8Direction.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbPin8Direction.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbPin8Direction.FormattingEnabled = true;
+            this.cbPin8Direction.Items.AddRange(new object[] {
+            "IN",
+            "OUT"});
+            this.cbPin8Direction.Location = new System.Drawing.Point(174, 43);
+            this.cbPin8Direction.Name = "cbPin8Direction";
+            this.cbPin8Direction.Size = new System.Drawing.Size(50, 21);
+            this.cbPin8Direction.TabIndex = 20;
+            this.cbPin8Direction.SelectedIndexChanged += new System.EventHandler(this.cbPin8Direction_SelectedIndexChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(171, 27);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(13, 13);
+            this.label7.TabIndex = 19;
+            this.label7.Text = "8";
+            // 
+            // lPin7Read
+            // 
+            this.lPin7Read.AutoSize = true;
+            this.lPin7Read.Location = new System.Drawing.Point(118, 175);
+            this.lPin7Read.Name = "lPin7Read";
+            this.lPin7Read.Size = new System.Drawing.Size(0, 13);
+            this.lPin7Read.TabIndex = 18;
+            // 
+            // btnPin7Read
+            // 
+            this.btnPin7Read.Location = new System.Drawing.Point(118, 149);
+            this.btnPin7Read.Name = "btnPin7Read";
+            this.btnPin7Read.Size = new System.Drawing.Size(50, 23);
+            this.btnPin7Read.TabIndex = 17;
+            this.btnPin7Read.Text = "READ";
+            this.btnPin7Read.UseVisualStyleBackColor = true;
+            this.btnPin7Read.Click += new System.EventHandler(this.btnPin7Read_Click);
+            // 
+            // btnPin7SetLow
+            // 
+            this.btnPin7SetLow.Location = new System.Drawing.Point(118, 109);
+            this.btnPin7SetLow.Name = "btnPin7SetLow";
+            this.btnPin7SetLow.Size = new System.Drawing.Size(50, 23);
+            this.btnPin7SetLow.TabIndex = 16;
+            this.btnPin7SetLow.Text = "LO";
+            this.btnPin7SetLow.UseVisualStyleBackColor = true;
+            this.btnPin7SetLow.Click += new System.EventHandler(this.btnPin7SetLow_Click);
+            // 
+            // btnPin7SetHigh
+            // 
+            this.btnPin7SetHigh.Location = new System.Drawing.Point(118, 80);
+            this.btnPin7SetHigh.Name = "btnPin7SetHigh";
+            this.btnPin7SetHigh.Size = new System.Drawing.Size(50, 23);
+            this.btnPin7SetHigh.TabIndex = 15;
+            this.btnPin7SetHigh.Text = "HI";
+            this.btnPin7SetHigh.UseVisualStyleBackColor = true;
+            this.btnPin7SetHigh.Click += new System.EventHandler(this.btnPin7SetHigh_Click);
+            // 
+            // cbPin7Direction
+            // 
+            this.cbPin7Direction.AllowDrop = true;
+            this.cbPin7Direction.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbPin7Direction.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbPin7Direction.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbPin7Direction.FormattingEnabled = true;
+            this.cbPin7Direction.Items.AddRange(new object[] {
+            "IN",
+            "OUT"});
+            this.cbPin7Direction.Location = new System.Drawing.Point(118, 43);
+            this.cbPin7Direction.Name = "cbPin7Direction";
+            this.cbPin7Direction.Size = new System.Drawing.Size(50, 21);
+            this.cbPin7Direction.TabIndex = 14;
+            this.cbPin7Direction.SelectedIndexChanged += new System.EventHandler(this.cbPin7Direction_SelectedIndexChanged);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(115, 27);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(13, 13);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "7";
+            // 
+            // lPin4Read
+            // 
+            this.lPin4Read.AutoSize = true;
+            this.lPin4Read.Location = new System.Drawing.Point(62, 175);
+            this.lPin4Read.Name = "lPin4Read";
+            this.lPin4Read.Size = new System.Drawing.Size(0, 13);
+            this.lPin4Read.TabIndex = 12;
+            // 
+            // btnPin4Read
+            // 
+            this.btnPin4Read.Location = new System.Drawing.Point(62, 149);
+            this.btnPin4Read.Name = "btnPin4Read";
+            this.btnPin4Read.Size = new System.Drawing.Size(50, 23);
+            this.btnPin4Read.TabIndex = 11;
+            this.btnPin4Read.Text = "READ";
+            this.btnPin4Read.UseVisualStyleBackColor = true;
+            this.btnPin4Read.Click += new System.EventHandler(this.btnPin4Read_Click);
+            // 
+            // btnPin4SetLow
+            // 
+            this.btnPin4SetLow.Location = new System.Drawing.Point(62, 109);
+            this.btnPin4SetLow.Name = "btnPin4SetLow";
+            this.btnPin4SetLow.Size = new System.Drawing.Size(50, 23);
+            this.btnPin4SetLow.TabIndex = 10;
+            this.btnPin4SetLow.Text = "LO";
+            this.btnPin4SetLow.UseVisualStyleBackColor = true;
+            this.btnPin4SetLow.Click += new System.EventHandler(this.btnPin4SetLow_Click);
+            // 
+            // btnPin4SetHigh
+            // 
+            this.btnPin4SetHigh.Location = new System.Drawing.Point(62, 80);
+            this.btnPin4SetHigh.Name = "btnPin4SetHigh";
+            this.btnPin4SetHigh.Size = new System.Drawing.Size(50, 23);
+            this.btnPin4SetHigh.TabIndex = 9;
+            this.btnPin4SetHigh.Text = "HI";
+            this.btnPin4SetHigh.UseVisualStyleBackColor = true;
+            this.btnPin4SetHigh.Click += new System.EventHandler(this.btnPin4SetHigh_Click);
+            // 
+            // cbPin4Direction
+            // 
+            this.cbPin4Direction.AllowDrop = true;
+            this.cbPin4Direction.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbPin4Direction.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbPin4Direction.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbPin4Direction.FormattingEnabled = true;
+            this.cbPin4Direction.Items.AddRange(new object[] {
+            "IN",
+            "OUT"});
+            this.cbPin4Direction.Location = new System.Drawing.Point(62, 43);
+            this.cbPin4Direction.Name = "cbPin4Direction";
+            this.cbPin4Direction.Size = new System.Drawing.Size(50, 21);
+            this.cbPin4Direction.TabIndex = 8;
+            this.cbPin4Direction.SelectedIndexChanged += new System.EventHandler(this.cbPin4Direction_SelectedIndexChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(59, 27);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(13, 13);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "4";
+            // 
+            // lPin2Read
+            // 
+            this.lPin2Read.AutoSize = true;
+            this.lPin2Read.Location = new System.Drawing.Point(6, 175);
+            this.lPin2Read.Name = "lPin2Read";
+            this.lPin2Read.Size = new System.Drawing.Size(0, 13);
+            this.lPin2Read.TabIndex = 6;
+            // 
+            // btnPin2Read
+            // 
+            this.btnPin2Read.Location = new System.Drawing.Point(6, 149);
+            this.btnPin2Read.Name = "btnPin2Read";
+            this.btnPin2Read.Size = new System.Drawing.Size(50, 23);
+            this.btnPin2Read.TabIndex = 5;
+            this.btnPin2Read.Text = "READ";
+            this.btnPin2Read.UseVisualStyleBackColor = true;
+            this.btnPin2Read.Click += new System.EventHandler(this.btnPin2Read_Click);
+            // 
+            // btnPin2SetLow
+            // 
+            this.btnPin2SetLow.Location = new System.Drawing.Point(6, 109);
+            this.btnPin2SetLow.Name = "btnPin2SetLow";
+            this.btnPin2SetLow.Size = new System.Drawing.Size(50, 23);
+            this.btnPin2SetLow.TabIndex = 4;
+            this.btnPin2SetLow.Text = "LO";
+            this.btnPin2SetLow.UseVisualStyleBackColor = true;
+            this.btnPin2SetLow.Click += new System.EventHandler(this.btnPin2SetLow_Click);
+            // 
+            // btnPin2SetHigh
+            // 
+            this.btnPin2SetHigh.Location = new System.Drawing.Point(6, 80);
+            this.btnPin2SetHigh.Name = "btnPin2SetHigh";
+            this.btnPin2SetHigh.Size = new System.Drawing.Size(50, 23);
+            this.btnPin2SetHigh.TabIndex = 3;
+            this.btnPin2SetHigh.Text = "HI";
+            this.btnPin2SetHigh.UseVisualStyleBackColor = true;
+            this.btnPin2SetHigh.Click += new System.EventHandler(this.btnPin2SetHigh_Click);
+            // 
+            // cbPin2Direction
+            // 
+            this.cbPin2Direction.AllowDrop = true;
+            this.cbPin2Direction.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbPin2Direction.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbPin2Direction.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbPin2Direction.FormattingEnabled = true;
+            this.cbPin2Direction.Items.AddRange(new object[] {
+            "IN",
+            "OUT"});
+            this.cbPin2Direction.Location = new System.Drawing.Point(6, 43);
+            this.cbPin2Direction.Name = "cbPin2Direction";
+            this.cbPin2Direction.Size = new System.Drawing.Size(50, 21);
+            this.cbPin2Direction.TabIndex = 2;
+            this.cbPin2Direction.SelectedIndexChanged += new System.EventHandler(this.cbPin2Direction_SelectedIndexChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(3, 27);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(13, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "2";
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.cbAnal5DisplayMode);
@@ -599,6 +599,86 @@
             this.groupBox2.TabIndex = 37;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Analog Inputs";
+            // 
+            // cbAnal5DisplayMode
+            // 
+            this.cbAnal5DisplayMode.AllowDrop = true;
+            this.cbAnal5DisplayMode.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbAnal5DisplayMode.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbAnal5DisplayMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbAnal5DisplayMode.FormattingEnabled = true;
+            this.cbAnal5DisplayMode.Items.AddRange(new object[] {
+            "V",
+            "RAW"});
+            this.cbAnal5DisplayMode.Location = new System.Drawing.Point(286, 101);
+            this.cbAnal5DisplayMode.Name = "cbAnal5DisplayMode";
+            this.cbAnal5DisplayMode.Size = new System.Drawing.Size(50, 21);
+            this.cbAnal5DisplayMode.TabIndex = 42;
+            this.cbAnal5DisplayMode.SelectedIndexChanged += new System.EventHandler(this.cbAnal5DisplayMode_SelectedIndexChanged);
+            // 
+            // cbAnal4DisplayMode
+            // 
+            this.cbAnal4DisplayMode.AllowDrop = true;
+            this.cbAnal4DisplayMode.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbAnal4DisplayMode.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbAnal4DisplayMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbAnal4DisplayMode.FormattingEnabled = true;
+            this.cbAnal4DisplayMode.Items.AddRange(new object[] {
+            "V",
+            "RAW"});
+            this.cbAnal4DisplayMode.Location = new System.Drawing.Point(230, 101);
+            this.cbAnal4DisplayMode.Name = "cbAnal4DisplayMode";
+            this.cbAnal4DisplayMode.Size = new System.Drawing.Size(50, 21);
+            this.cbAnal4DisplayMode.TabIndex = 41;
+            this.cbAnal4DisplayMode.SelectedIndexChanged += new System.EventHandler(this.cbAnal4DisplayMode_SelectedIndexChanged);
+            // 
+            // cbAnal3DisplayMode
+            // 
+            this.cbAnal3DisplayMode.AllowDrop = true;
+            this.cbAnal3DisplayMode.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbAnal3DisplayMode.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbAnal3DisplayMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbAnal3DisplayMode.FormattingEnabled = true;
+            this.cbAnal3DisplayMode.Items.AddRange(new object[] {
+            "V",
+            "RAW"});
+            this.cbAnal3DisplayMode.Location = new System.Drawing.Point(174, 101);
+            this.cbAnal3DisplayMode.Name = "cbAnal3DisplayMode";
+            this.cbAnal3DisplayMode.Size = new System.Drawing.Size(50, 21);
+            this.cbAnal3DisplayMode.TabIndex = 40;
+            this.cbAnal3DisplayMode.SelectedIndexChanged += new System.EventHandler(this.cbAnal3DisplayMode_SelectedIndexChanged);
+            // 
+            // cbAnal2DisplayMode
+            // 
+            this.cbAnal2DisplayMode.AllowDrop = true;
+            this.cbAnal2DisplayMode.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbAnal2DisplayMode.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbAnal2DisplayMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbAnal2DisplayMode.FormattingEnabled = true;
+            this.cbAnal2DisplayMode.Items.AddRange(new object[] {
+            "V",
+            "RAW"});
+            this.cbAnal2DisplayMode.Location = new System.Drawing.Point(118, 101);
+            this.cbAnal2DisplayMode.Name = "cbAnal2DisplayMode";
+            this.cbAnal2DisplayMode.Size = new System.Drawing.Size(50, 21);
+            this.cbAnal2DisplayMode.TabIndex = 39;
+            this.cbAnal2DisplayMode.SelectedIndexChanged += new System.EventHandler(this.cbAnal2DisplayMode_SelectedIndexChanged);
+            // 
+            // cbAnal1DisplayMode
+            // 
+            this.cbAnal1DisplayMode.AllowDrop = true;
+            this.cbAnal1DisplayMode.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbAnal1DisplayMode.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbAnal1DisplayMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbAnal1DisplayMode.FormattingEnabled = true;
+            this.cbAnal1DisplayMode.Items.AddRange(new object[] {
+            "V",
+            "RAW"});
+            this.cbAnal1DisplayMode.Location = new System.Drawing.Point(62, 101);
+            this.cbAnal1DisplayMode.Name = "cbAnal1DisplayMode";
+            this.cbAnal1DisplayMode.Size = new System.Drawing.Size(50, 21);
+            this.cbAnal1DisplayMode.TabIndex = 38;
+            this.cbAnal1DisplayMode.SelectedIndexChanged += new System.EventHandler(this.cbAnal1DisplayMode_SelectedIndexChanged);
             // 
             // lAnal5Read
             // 
@@ -644,6 +724,22 @@
             this.btnAnal4Read.Text = "READ";
             this.btnAnal4Read.UseVisualStyleBackColor = true;
             this.btnAnal4Read.Click += new System.EventHandler(this.btnAnal4Read_Click);
+            // 
+            // cbAnal0DisplayMode
+            // 
+            this.cbAnal0DisplayMode.AllowDrop = true;
+            this.cbAnal0DisplayMode.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.cbAnal0DisplayMode.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbAnal0DisplayMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbAnal0DisplayMode.FormattingEnabled = true;
+            this.cbAnal0DisplayMode.Items.AddRange(new object[] {
+            "V",
+            "RAW"});
+            this.cbAnal0DisplayMode.Location = new System.Drawing.Point(6, 101);
+            this.cbAnal0DisplayMode.Name = "cbAnal0DisplayMode";
+            this.cbAnal0DisplayMode.Size = new System.Drawing.Size(50, 21);
+            this.cbAnal0DisplayMode.TabIndex = 37;
+            this.cbAnal0DisplayMode.SelectedIndexChanged += new System.EventHandler(this.cbAnal0DisplayMode_SelectedIndexChanged);
             // 
             // label8
             // 
@@ -812,6 +908,78 @@
             this.groupBox3.TabIndex = 37;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Digital/PWM Pins";
+            // 
+            // tbPin11PWM
+            // 
+            this.tbPin11PWM.BackColor = System.Drawing.SystemColors.Control;
+            this.tbPin11PWM.Location = new System.Drawing.Point(286, 191);
+            this.tbPin11PWM.Maximum = 255;
+            this.tbPin11PWM.Name = "tbPin11PWM";
+            this.tbPin11PWM.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.tbPin11PWM.Size = new System.Drawing.Size(45, 101);
+            this.tbPin11PWM.TabIndex = 42;
+            this.tbPin11PWM.TickStyle = System.Windows.Forms.TickStyle.None;
+            this.tbPin11PWM.Scroll += new System.EventHandler(this.tbPin11PWM_Scroll);
+            // 
+            // tbPin10PWM
+            // 
+            this.tbPin10PWM.BackColor = System.Drawing.SystemColors.Control;
+            this.tbPin10PWM.Location = new System.Drawing.Point(230, 191);
+            this.tbPin10PWM.Maximum = 255;
+            this.tbPin10PWM.Name = "tbPin10PWM";
+            this.tbPin10PWM.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.tbPin10PWM.Size = new System.Drawing.Size(45, 101);
+            this.tbPin10PWM.TabIndex = 41;
+            this.tbPin10PWM.TickStyle = System.Windows.Forms.TickStyle.None;
+            this.tbPin10PWM.Scroll += new System.EventHandler(this.tbPin10PWM_Scroll);
+            // 
+            // tbPin9PWM
+            // 
+            this.tbPin9PWM.BackColor = System.Drawing.SystemColors.Control;
+            this.tbPin9PWM.Location = new System.Drawing.Point(174, 191);
+            this.tbPin9PWM.Maximum = 255;
+            this.tbPin9PWM.Name = "tbPin9PWM";
+            this.tbPin9PWM.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.tbPin9PWM.Size = new System.Drawing.Size(45, 101);
+            this.tbPin9PWM.TabIndex = 40;
+            this.tbPin9PWM.TickStyle = System.Windows.Forms.TickStyle.None;
+            this.tbPin9PWM.Scroll += new System.EventHandler(this.tbPin9PWM_Scroll);
+            // 
+            // tbPin6PWM
+            // 
+            this.tbPin6PWM.BackColor = System.Drawing.SystemColors.Control;
+            this.tbPin6PWM.Location = new System.Drawing.Point(118, 191);
+            this.tbPin6PWM.Maximum = 255;
+            this.tbPin6PWM.Name = "tbPin6PWM";
+            this.tbPin6PWM.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.tbPin6PWM.Size = new System.Drawing.Size(45, 101);
+            this.tbPin6PWM.TabIndex = 39;
+            this.tbPin6PWM.TickStyle = System.Windows.Forms.TickStyle.None;
+            this.tbPin6PWM.Scroll += new System.EventHandler(this.tbPin6PWM_Scroll);
+            // 
+            // tbPin5PWM
+            // 
+            this.tbPin5PWM.BackColor = System.Drawing.SystemColors.Control;
+            this.tbPin5PWM.Location = new System.Drawing.Point(62, 191);
+            this.tbPin5PWM.Maximum = 255;
+            this.tbPin5PWM.Name = "tbPin5PWM";
+            this.tbPin5PWM.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.tbPin5PWM.Size = new System.Drawing.Size(45, 101);
+            this.tbPin5PWM.TabIndex = 38;
+            this.tbPin5PWM.TickStyle = System.Windows.Forms.TickStyle.None;
+            this.tbPin5PWM.Scroll += new System.EventHandler(this.tbPin5PWM_Scroll);
+            // 
+            // tbPin3PWM
+            // 
+            this.tbPin3PWM.BackColor = System.Drawing.SystemColors.Control;
+            this.tbPin3PWM.Location = new System.Drawing.Point(6, 191);
+            this.tbPin3PWM.Maximum = 255;
+            this.tbPin3PWM.Name = "tbPin3PWM";
+            this.tbPin3PWM.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.tbPin3PWM.Size = new System.Drawing.Size(45, 101);
+            this.tbPin3PWM.TabIndex = 37;
+            this.tbPin3PWM.TickStyle = System.Windows.Forms.TickStyle.None;
+            this.tbPin3PWM.Scroll += new System.EventHandler(this.tbPin3PWM_Scroll);
             // 
             // lPin11Read
             // 
@@ -1190,179 +1358,11 @@
             this.label24.TabIndex = 0;
             this.label24.Text = "3";
             // 
-            // tbPin3PWM
-            // 
-            this.tbPin3PWM.BackColor = System.Drawing.SystemColors.Control;
-            this.tbPin3PWM.Location = new System.Drawing.Point(6, 191);
-            this.tbPin3PWM.Maximum = 255;
-            this.tbPin3PWM.Name = "tbPin3PWM";
-            this.tbPin3PWM.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.tbPin3PWM.Size = new System.Drawing.Size(45, 101);
-            this.tbPin3PWM.TabIndex = 37;
-            this.tbPin3PWM.TickStyle = System.Windows.Forms.TickStyle.None;
-            this.tbPin3PWM.Scroll += new System.EventHandler(this.tbPin3PWM_Scroll);
-            // 
-            // tbPin5PWM
-            // 
-            this.tbPin5PWM.BackColor = System.Drawing.SystemColors.Control;
-            this.tbPin5PWM.Location = new System.Drawing.Point(62, 191);
-            this.tbPin5PWM.Maximum = 255;
-            this.tbPin5PWM.Name = "tbPin5PWM";
-            this.tbPin5PWM.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.tbPin5PWM.Size = new System.Drawing.Size(45, 101);
-            this.tbPin5PWM.TabIndex = 38;
-            this.tbPin5PWM.TickStyle = System.Windows.Forms.TickStyle.None;
-            this.tbPin5PWM.Scroll += new System.EventHandler(this.tbPin5PWM_Scroll);
-            // 
-            // tbPin6PWM
-            // 
-            this.tbPin6PWM.BackColor = System.Drawing.SystemColors.Control;
-            this.tbPin6PWM.Location = new System.Drawing.Point(118, 191);
-            this.tbPin6PWM.Maximum = 255;
-            this.tbPin6PWM.Name = "tbPin6PWM";
-            this.tbPin6PWM.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.tbPin6PWM.Size = new System.Drawing.Size(45, 101);
-            this.tbPin6PWM.TabIndex = 39;
-            this.tbPin6PWM.TickStyle = System.Windows.Forms.TickStyle.None;
-            this.tbPin6PWM.Scroll += new System.EventHandler(this.tbPin6PWM_Scroll);
-            // 
-            // tbPin9PWM
-            // 
-            this.tbPin9PWM.BackColor = System.Drawing.SystemColors.Control;
-            this.tbPin9PWM.Location = new System.Drawing.Point(174, 191);
-            this.tbPin9PWM.Maximum = 255;
-            this.tbPin9PWM.Name = "tbPin9PWM";
-            this.tbPin9PWM.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.tbPin9PWM.Size = new System.Drawing.Size(45, 101);
-            this.tbPin9PWM.TabIndex = 40;
-            this.tbPin9PWM.TickStyle = System.Windows.Forms.TickStyle.None;
-            this.tbPin9PWM.Scroll += new System.EventHandler(this.tbPin9PWM_Scroll);
-            // 
-            // tbPin10PWM
-            // 
-            this.tbPin10PWM.BackColor = System.Drawing.SystemColors.Control;
-            this.tbPin10PWM.Location = new System.Drawing.Point(230, 191);
-            this.tbPin10PWM.Maximum = 255;
-            this.tbPin10PWM.Name = "tbPin10PWM";
-            this.tbPin10PWM.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.tbPin10PWM.Size = new System.Drawing.Size(45, 101);
-            this.tbPin10PWM.TabIndex = 41;
-            this.tbPin10PWM.TickStyle = System.Windows.Forms.TickStyle.None;
-            this.tbPin10PWM.Scroll += new System.EventHandler(this.tbPin10PWM_Scroll);
-            // 
-            // tbPin11PWM
-            // 
-            this.tbPin11PWM.BackColor = System.Drawing.SystemColors.Control;
-            this.tbPin11PWM.Location = new System.Drawing.Point(286, 191);
-            this.tbPin11PWM.Maximum = 255;
-            this.tbPin11PWM.Name = "tbPin11PWM";
-            this.tbPin11PWM.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.tbPin11PWM.Size = new System.Drawing.Size(45, 101);
-            this.tbPin11PWM.TabIndex = 42;
-            this.tbPin11PWM.TickStyle = System.Windows.Forms.TickStyle.None;
-            this.tbPin11PWM.Scroll += new System.EventHandler(this.tbPin11PWM_Scroll);
-            // 
-            // cbAnal0DisplayMode
-            // 
-            this.cbAnal0DisplayMode.AllowDrop = true;
-            this.cbAnal0DisplayMode.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cbAnal0DisplayMode.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbAnal0DisplayMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbAnal0DisplayMode.FormattingEnabled = true;
-            this.cbAnal0DisplayMode.Items.AddRange(new object[] {
-            "V",
-            "RAW"});
-            this.cbAnal0DisplayMode.Location = new System.Drawing.Point(6, 101);
-            this.cbAnal0DisplayMode.Name = "cbAnal0DisplayMode";
-            this.cbAnal0DisplayMode.Size = new System.Drawing.Size(50, 21);
-            this.cbAnal0DisplayMode.TabIndex = 37;
-            this.cbAnal0DisplayMode.SelectedIndexChanged += new System.EventHandler(this.cbAnal0DisplayMode_SelectedIndexChanged);
-            // 
-            // cbAnal1DisplayMode
-            // 
-            this.cbAnal1DisplayMode.AllowDrop = true;
-            this.cbAnal1DisplayMode.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cbAnal1DisplayMode.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbAnal1DisplayMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbAnal1DisplayMode.FormattingEnabled = true;
-            this.cbAnal1DisplayMode.Items.AddRange(new object[] {
-            "V",
-            "RAW"});
-            this.cbAnal1DisplayMode.Location = new System.Drawing.Point(62, 101);
-            this.cbAnal1DisplayMode.Name = "cbAnal1DisplayMode";
-            this.cbAnal1DisplayMode.Size = new System.Drawing.Size(50, 21);
-            this.cbAnal1DisplayMode.TabIndex = 38;
-            this.cbAnal1DisplayMode.SelectedIndexChanged += new System.EventHandler(this.cbAnal1DisplayMode_SelectedIndexChanged);
-            // 
-            // cbAnal2DisplayMode
-            // 
-            this.cbAnal2DisplayMode.AllowDrop = true;
-            this.cbAnal2DisplayMode.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cbAnal2DisplayMode.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbAnal2DisplayMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbAnal2DisplayMode.FormattingEnabled = true;
-            this.cbAnal2DisplayMode.Items.AddRange(new object[] {
-            "V",
-            "RAW"});
-            this.cbAnal2DisplayMode.Location = new System.Drawing.Point(118, 101);
-            this.cbAnal2DisplayMode.Name = "cbAnal2DisplayMode";
-            this.cbAnal2DisplayMode.Size = new System.Drawing.Size(50, 21);
-            this.cbAnal2DisplayMode.TabIndex = 39;
-            this.cbAnal2DisplayMode.SelectedIndexChanged += new System.EventHandler(this.cbAnal2DisplayMode_SelectedIndexChanged);
-            // 
-            // cbAnal3DisplayMode
-            // 
-            this.cbAnal3DisplayMode.AllowDrop = true;
-            this.cbAnal3DisplayMode.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cbAnal3DisplayMode.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbAnal3DisplayMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbAnal3DisplayMode.FormattingEnabled = true;
-            this.cbAnal3DisplayMode.Items.AddRange(new object[] {
-            "V",
-            "RAW"});
-            this.cbAnal3DisplayMode.Location = new System.Drawing.Point(174, 101);
-            this.cbAnal3DisplayMode.Name = "cbAnal3DisplayMode";
-            this.cbAnal3DisplayMode.Size = new System.Drawing.Size(50, 21);
-            this.cbAnal3DisplayMode.TabIndex = 40;
-            this.cbAnal3DisplayMode.SelectedIndexChanged += new System.EventHandler(this.cbAnal3DisplayMode_SelectedIndexChanged);
-            // 
-            // cbAnal4DisplayMode
-            // 
-            this.cbAnal4DisplayMode.AllowDrop = true;
-            this.cbAnal4DisplayMode.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cbAnal4DisplayMode.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbAnal4DisplayMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbAnal4DisplayMode.FormattingEnabled = true;
-            this.cbAnal4DisplayMode.Items.AddRange(new object[] {
-            "V",
-            "RAW"});
-            this.cbAnal4DisplayMode.Location = new System.Drawing.Point(230, 101);
-            this.cbAnal4DisplayMode.Name = "cbAnal4DisplayMode";
-            this.cbAnal4DisplayMode.Size = new System.Drawing.Size(50, 21);
-            this.cbAnal4DisplayMode.TabIndex = 41;
-            this.cbAnal4DisplayMode.SelectedIndexChanged += new System.EventHandler(this.cbAnal4DisplayMode_SelectedIndexChanged);
-            // 
-            // cbAnal5DisplayMode
-            // 
-            this.cbAnal5DisplayMode.AllowDrop = true;
-            this.cbAnal5DisplayMode.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cbAnal5DisplayMode.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.cbAnal5DisplayMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbAnal5DisplayMode.FormattingEnabled = true;
-            this.cbAnal5DisplayMode.Items.AddRange(new object[] {
-            "V",
-            "RAW"});
-            this.cbAnal5DisplayMode.Location = new System.Drawing.Point(286, 101);
-            this.cbAnal5DisplayMode.Name = "cbAnal5DisplayMode";
-            this.cbAnal5DisplayMode.Size = new System.Drawing.Size(50, 21);
-            this.cbAnal5DisplayMode.TabIndex = 42;
-            this.cbAnal5DisplayMode.SelectedIndexChanged += new System.EventHandler(this.cbAnal5DisplayMode_SelectedIndexChanged);
-            // 
             // PinControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(848, 476);
+            this.ClientSize = new System.Drawing.Size(734, 354);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -1374,12 +1374,12 @@
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.tbPin3PWM)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbPin5PWM)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbPin6PWM)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbPin9PWM)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbPin10PWM)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbPin11PWM)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbPin10PWM)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbPin9PWM)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbPin6PWM)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbPin5PWM)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tbPin3PWM)).EndInit();
             this.ResumeLayout(false);
 
         }

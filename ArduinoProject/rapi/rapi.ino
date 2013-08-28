@@ -26,6 +26,7 @@ void blinkIt() {
 void processRequest(String request) {
   if(request.equals("ping")) {
     Serial.println("pong");
+    return;
   }
   
   // get command first
@@ -37,10 +38,14 @@ void processRequest(String request) {
 
     if(mode.equalsIgnoreCase("out")) {
       pinMode(pinNumber, OUTPUT);
+      Serial.println(0, DEC);
     } 
     else if(mode.equalsIgnoreCase("in")) {
       pinMode(pinNumber, INPUT);
+      Serial.println(0, DEC);
     }
+    
+    return;
   }  
 
   // write command
@@ -52,11 +57,15 @@ void processRequest(String request) {
 
     if(mode.equalsIgnoreCase("digital")) {
       digitalWrite(pinNumber, value);
+      Serial.println(0, DEC);
     } 
     else if(mode.equalsIgnoreCase("analog")) {
       // only on 3, 5, 6, 9, 10, and 11
       analogWrite(pinNumber, value);
+      Serial.println(0, DEC);
     }
+    
+    return;
   }
   
   // pullups
@@ -65,6 +74,9 @@ void processRequest(String request) {
     String state = request.substring(request.lastIndexOf("/") + 1, request.length());
     
     digitalWrite(pinNumber, state.equalsIgnoreCase("on") ? HIGH : LOW);
+    Serial.println(0, DEC);
+    
+    return;
   }
   
   // read command
@@ -78,7 +90,16 @@ void processRequest(String request) {
     else if(mode.equalsIgnoreCase("analog")) {
       Serial.println(analogRead(pinNumber));
     }
+    
+    return;
+  } 
+  
+  else {
+    Serial.println(1);
+    return;
   }
+  
+  Serial.println(2);
 }
 
 char inbyte = 0;

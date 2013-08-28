@@ -11,19 +11,19 @@ namespace CodeCamp48
         // pin5
         public static void setGreen(int val)
         {
-            ArduinoCommunicator.analogWrite(5, val);
+            ArduinoCommunicator.AnalogWrite(5, val);
         }
 
         // pin3
         public static void setRed(int val)
         {
-            ArduinoCommunicator.analogWrite(3, val);
+            ArduinoCommunicator.AnalogWrite(3, val);
         }
 
         // pin6
         public static void setBlue(int val)
         {
-            ArduinoCommunicator.analogWrite(6, val);
+            ArduinoCommunicator.AnalogWrite(6, val);
         }
     }
 }

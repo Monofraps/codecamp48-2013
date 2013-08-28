@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -12,10 +13,11 @@ namespace CodeCamp48
 {
     public partial class RGBStuff : Form
     {
-        private struct Triple {
+        private struct Color
+        {
             public int r, g, b;
 
-            public Triple(int red, int green, int blue)
+            public Color(int red, int green, int blue)
             {
                 r = red;
                 g = green;
@@ -24,31 +26,33 @@ namespace CodeCamp48
 
             public void apply()
             {
-                RGBController.setRed(r);
-                RGBController.setGreen(g);
-                RGBController.setBlue(b);
+                RGBController.setRed(255 - r);
+                RGBController.setGreen(255 - g);
+                RGBController.setBlue(255 - b);
             }
         }
 
 
-        private List<Triple> colors = new List<Triple>();
+        private List<Color> colors = new List<Color>();
         private int currentIndex = 0;
 
         public RGBStuff()
         {
             InitializeComponent();
 
-            colors.Add(new Triple(0, 255, 255));
-            colors.Add(new Triple(255, 0, 255));
-            colors.Add(new Triple(255, 255, 0));
+            colors.Add(new Color(0, 0, 255));
+            colors.Add(new Color(255, 0, 0));
+            colors.Add(new Color(0, 255, 0));
 
-            ArduinoCommunicator.pinMode(3, ArduinoCommunicator.PinDirection.Output);
-            ArduinoCommunicator.pinMode(5, ArduinoCommunicator.PinDirection.Output);
-            ArduinoCommunicator.pinMode(6, ArduinoCommunicator.PinDirection.Output);
+            ArduinoCommunicator.Probe();
 
-            ArduinoCommunicator.digitalWrite(3, ArduinoCommunicator.DigitalValue.High);
-            ArduinoCommunicator.digitalWrite(5, ArduinoCommunicator.DigitalValue.High);
-            ArduinoCommunicator.digitalWrite(6, ArduinoCommunicator.DigitalValue.High);
+            ArduinoCommunicator.PinMode(3, ArduinoCommunicator.PinDirection.Output);
+            ArduinoCommunicator.PinMode(5, ArduinoCommunicator.PinDirection.Output);
+            ArduinoCommunicator.PinMode(6, ArduinoCommunicator.PinDirection.Output);
+
+            ArduinoCommunicator.DigitalWrite(3, ArduinoCommunicator.DigitalValue.High);
+            ArduinoCommunicator.DigitalWrite(5, ArduinoCommunicator.DigitalValue.High);
+            ArduinoCommunicator.DigitalWrite(6, ArduinoCommunicator.DigitalValue.High);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -59,6 +63,25 @@ namespace CodeCamp48
             }
 
             colors[currentIndex++].apply();
+        }
+
+        private void btnPush_Click(object sender, EventArgs e)
+        {
+            colors.Add(new Color(Convert.ToInt32(nudRed.Value), Convert.ToInt32(nudGreen.Value), Convert.ToInt32(nudBlue.Value)));
+        }
+
+        private void btnApply_Click(object sender, EventArgs e)
+        {
+            new Color(Convert.ToInt32(nudRed.Value), Convert.ToInt32(nudGreen.Value), Convert.ToInt32(nudBlue.Value)).apply();
+        }
+
+        private void btnAnimation_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 10 * 3; i++)
+            {
+                button1_Click(null, null);
+                Thread.Sleep(100);
+            }
         }
     }
 }

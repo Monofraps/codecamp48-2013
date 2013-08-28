@@ -36,6 +36,7 @@
             this.lbParameter2 = new System.Windows.Forms.ListBox();
             this.lbParameter3 = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnProbe = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnRunQuery
@@ -116,11 +117,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_2);
             // 
+            // btnProbe
+            // 
+            this.btnProbe.Location = new System.Drawing.Point(12, 142);
+            this.btnProbe.Name = "btnProbe";
+            this.btnProbe.Size = new System.Drawing.Size(75, 23);
+            this.btnProbe.TabIndex = 13;
+            this.btnProbe.Text = "Probe";
+            this.btnProbe.UseVisualStyleBackColor = true;
+            this.btnProbe.Click += new System.EventHandler(this.btnProbe_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 150);
+            this.ClientSize = new System.Drawing.Size(282, 176);
+            this.Controls.Add(this.btnProbe);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lbParameter3);
             this.Controls.Add(this.lbParameter2);
@@ -130,8 +142,7 @@
             this.Controls.Add(this.tbDirectQuery);
             this.Controls.Add(this.btnRunQuery);
             this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Text = "Serial Terminal";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -147,6 +158,7 @@
         private System.Windows.Forms.ListBox lbParameter2;
         private System.Windows.Forms.ListBox lbParameter3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnProbe;
     }
 }
 
